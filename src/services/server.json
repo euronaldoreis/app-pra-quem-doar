@@ -1,0 +1,49 @@
+{
+  "causas": [
+    {"key": "animais", "title": "Animais"},
+    {"key": "criancas", "title": "Crianças"},
+    {"key": "esportes", "title": "Esportes"},
+    {"key": "educacao", "title": "Educação"},
+    {"key": "idosos", "title": "Idosos"},
+    {"key": "jovens", "title": "Jovens"},
+    {"key": "meio_ambiente", "title": "Meio Ambiente"},
+    {"key": "mulheres", "title": "Mulheres"},
+    {"key": "saude", "title": "Saúde"}
+  ],
+
+  "instituicoes": [
+    {
+      "id": 1,
+      "name": "Abrigo de Animais",
+      "about": "",
+      "photo": "",
+      "contact": {
+        "address": "",
+        "email": "",
+        "phone": "",
+        "website": "",
+        "social_media": [
+          {"type": "facebook", "user": "abrigo_de_animais"},
+          {"type": "instagram", "user": "abrigo_de_animais"}
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Criança Feliz",
+      "about": "",
+      "photo": "",
+      "contact": {
+        "address": "",
+        "email": "",
+        "phone": "",
+        "website": "",
+        "social_media": [
+          {"type": "facebook", "user": "crianca_feliz"},
+          {"type": "instagram", "user": "crianca_feliz"}
+        ]
+      }
+    }
+  ]
+
+}
