@@ -16,12 +16,16 @@ const AuthRoutes = () => {
   return (
     <AppTab.Navigator
       screenOptions={{
-        tabBarActiveTintColor:colors.primary,
+        tabBarActiveTintColor: colors.primary,
         tabBarInactiveTintColor: colors.heading,
-        tabBarLabelPosition: 'beside-icon',
-        tabBarLabelStyle: {
-          paddingVertical: Platform.OS === 'ios' ? 20 : 0,
-          height: 20
+        style: {
+          alignItems: 'center',
+          justifyContent: 'center',
+          height: Platform.OS === 'ios' ? 90 : 60,
+        },
+        labelStyle: {
+          fontSize: 14,
+          marginBottom: 5,
         },
         headerShown: false
       }}

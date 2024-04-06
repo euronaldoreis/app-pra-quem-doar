@@ -9,9 +9,9 @@ import { InstitutionProps } from '../interfaces/Institution';
 import { CausesProps } from '../interfaces/Causes';
 import { InstitutionCard } from '../components/InstitutionCard';
 import { mockData } from '../../db';
-import { SafeAreaView } from 'react-native-safe-area-context';
 import Header from '../components/Header';
 import { useNavigation } from '@react-navigation/core';
+import SafeAreaView from 'react-native-safe-area-view';
 
 const Home = () => {
   const [causes, setCauses] = useState<CausesProps[]>([]);

@@ -49,7 +49,7 @@ const Institution = ({ route } : any) => {
             <MaterialIcons 
               name="arrow-back"
               size={30}
-              color={colors.white}
+              color={colors.primary}
               onPress={() => handleBackButtonClick()}
               style={styles.iconBack}
             />
